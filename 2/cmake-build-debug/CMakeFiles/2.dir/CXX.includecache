@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sam/Documents/smallpence/showcode/2/solution.hpp
+string
+-
+iostream
+-
+vector
+-
+
+/home/sam/Documents/smallpence/showcode/2/tests.cpp
+solution.hpp
+/home/sam/Documents/smallpence/showcode/2/solution.hpp
+vector
+-
+
